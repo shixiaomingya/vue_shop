@@ -81,6 +81,8 @@ export default {
 
 <style lang="less" scoped>
 .login_container {
+  background-size: 100%;
+  // background-image: url('../assets/video/preview.png');
   background: #2b4b6b;
   height: 100%;
 }
@@ -88,7 +90,7 @@ export default {
   width: 450px;
   height: 300px;
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 10px;
   position: absolute;
   left: 50%;
   top: 50%;

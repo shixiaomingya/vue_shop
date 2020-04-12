@@ -15,17 +15,15 @@
         </div>
         <!-- 登录表单区域 -->
         <el-form class="login_form">
-          <!-- 用户名 -->
           <el-form-item>
-            <el-input></el-input>
+            <el-input prefix-icon="iconfont icon-user"></el-input>
           </el-form-item>
-          <!-- 密码 -->
           <el-form-item>
-            <el-input></el-input>
+            <el-input prefix-icon="iconfont icon-3702mima" type="password"></el-input>
           </el-form-item>
           <!-- 按钮区域 -->
           <el-form-item class="btns">
-            <el-button type="primary">登录</el-button>
+            <el-button type="primary" style="width: 100%;">登录</el-button>
           </el-form-item>
         </el-form>
       </div>
@@ -100,9 +98,9 @@ export default {
 }
 
 .login_box {
-  width: 450px;
+  width: 420px;
   height: 300px;
-//   background-color: #fff;
+  //   background-color: #fff;
   border-radius: 3px;
   position: absolute;
   left: 50%;
@@ -125,7 +123,7 @@ export default {
       width: 100%;
       height: 100%;
       border-radius: 50%;
-    //   background-color: #eee;
+      //   background-color: #eee;
     }
   }
 }
@@ -139,7 +137,12 @@ export default {
 }
 
 .btns {
+  width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.el-form-item {
+  width: 100%;
 }
 </style>
